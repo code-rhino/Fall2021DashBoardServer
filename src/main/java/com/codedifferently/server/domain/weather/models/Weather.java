@@ -6,6 +6,8 @@ public class Weather {
     private String main;
     private String description;
     private String icon;
+    private Long visibility;
+
 
     public Long getId() {
         return id;
